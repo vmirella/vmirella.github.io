@@ -9,7 +9,7 @@
 }
 
 .sidebar-menu {
-  background-color: #CC444B;
+  background-color: #6B4B97;
   color: #fff;
   position: fixed;
   height: 100%;
@@ -18,7 +18,7 @@
 }
 
 .sidebar-menu img {
-  border: 8px solid #ee6e73;
+  border: 8px solid #8C71B2;
 }
 
 .sidebar-menu ul {
@@ -100,7 +100,7 @@
 }
 
 .div-portfolio .div-proyect .proyect .caption{
-  background-color: #CC444B;
+  background-color: #6B4B97;
   position: absolute;
   top: 0;
   left: 0;
