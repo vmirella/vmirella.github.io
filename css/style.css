@@ -73,6 +73,13 @@
   transform: translateY(-50%);
 }
 
+.div-about .about-content blockquote p {
+  font-size: 30px;
+}
+
+.div-about .about-content p {
+  font-size: 20px;
+}
 .div-about blockquote p {
   font-family: 'Lobster', cursive;
   font-size: 40px;
@@ -81,7 +88,7 @@
 .social-network a{
   font-size: 45px;
   color: #fff;
-  margin-right: 20px;
+  margin: 20px 15px;
 }
 
 .div-portfolio {
