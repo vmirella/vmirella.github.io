@@ -177,7 +177,7 @@ body {
   background-color: rgba(31, 31, 31, 0.68);
   padding: 30px 40px;
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .heading-border {
@@ -201,4 +201,17 @@ body {
 
 .skill-item i {
   color: rgb(107, 75, 151);
+}
+
+.div-contact {
+  padding: 30px 40px;
+}
+.div-contact .row {
+  margin: 0;
+}
+
+.div-contact a {
+  font-size: 45px;
+  margin: 20px 15px;
+  color: #909090;
 }

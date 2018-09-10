@@ -1,5 +1,7 @@
 $(document).ready(() => {
 
+  $('.contact-link').tooltip();
+
   $('.menu-link').click((e) => {
     e.preventDefault();
 
