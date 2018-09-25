@@ -283,4 +283,12 @@ body {
   .div-about, .div-portfolio, .div-skills, .div-contact{
     padding-top: 58px;
   }
+
+  .email-footer {
+    font-size: 14px !important;
+  }
+
+  .email-footer i{
+    display: none;
+  }
 }
