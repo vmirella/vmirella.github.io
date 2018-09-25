@@ -9,6 +9,7 @@ $(document).ready(() => {
     $('body,html').stop(true,true).animate({        
       scrollTop: $(link).offset().top
     },1000);
+    $('.navbar-toggler').click();
   });
 
 });

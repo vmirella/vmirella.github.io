@@ -17,6 +17,13 @@ body {
 .sidebar-menu {
   background-color: #6B4B97;
   color: #fff;
+}
+
+.sidebar-menu .nav-item {
+  padding-left: 20px;
+}
+
+.aling-menu {
   position: fixed;
   height: 100%;
   width: 250px;
@@ -50,6 +57,18 @@ body {
 }
 
 .sidebar-menu a.active {
+  opacity: 1;
+}
+
+.responsive-menu {
+  z-index: 9999;
+}
+
+.responsive-menu a {
+  opacity: 1;
+}
+
+.responsive-menu a:hover {
   opacity: 1;
 }
 
@@ -219,4 +238,37 @@ body {
   font-size: 45px;
   margin: 20px 15px;
   color: #909090;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    margin-left: 0; 
+    z-index: 1;
+    margin-top: 56px;
+  }
+
+  .full-height {
+    min-height: auto;
+  }
+
+  .div-about .about-content {
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    padding-top: 10px;
+  }
+
+  .div-skills .skills-cover {
+    height: auto;
+  }
+
+  .sidebar-menu img {
+    border: none;
+  }
+
+  .div-about, .div-portfolio, .div-skills, .div-contact{
+    padding-top: 58px;
+  }
 }

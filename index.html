@@ -14,8 +14,34 @@
   </head>
   <body>
     <div class="container-fluid">
+      <div class="row d-none d-sm-block d-md-none fixed-top">
+        <nav class="navbar navbar-md navbar-dark responsive-menu sidebar-menu">
+          <a class="navbar-brand" href="#"><img src="images/foto.jpg" alt="Virginia Contreras" class="rounded-circle ml-3" width="40" height="40"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link menu-link" href="#div-about"><i class="far fa-address-card"></i> SOBRE MI<span class="sr-only">(actual)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#div-portfolio"><i class="fas fa-briefcase"></i> PORTAFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#div-skills"><i class="fas fa-pencil-ruler"></i> HABILIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#div-contact"><i class="far fa-envelope"></i> CONTACTAME</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      
       <div class="row">
-        <div class="sidebar-menu text-center">
+        <nav class="sidebar-menu aling-menu text-center d-sm-none d-md-block">
           <div class="vertical-align-content">
             <img src="images/foto.jpg" alt="Virginia Contreras" class="rounded-circle">
             <ul>
@@ -29,7 +55,8 @@
               <a href="https://github.com/vmirella" target="_blank"><i class="fab fa-github"></i></a>
             </div>
           </div>
-        </div>
+        </nav>
+        
         <div class="content">
           <div id="div-about" class="div-about full-height">
             <div class="about-content">
