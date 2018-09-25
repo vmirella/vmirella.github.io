@@ -19,10 +19,10 @@
           <div class="vertical-align-content">
             <img src="images/foto.jpg" alt="Virginia Contreras" class="rounded-circle">
             <ul>
-              <li><a href="#div-about" class="active menu-link"><i class="fas fa-fingerprint"></i> SOBRE MI</a></li>
+              <li><a href="#div-about" class="active menu-link"><i class="far fa-address-card"></i> &nbsp;&nbsp;&nbsp;SOBRE MI&nbsp;&nbsp;</a></li>
               <li><a href="#div-portfolio" class="menu-link"><i class="fas fa-briefcase"></i> PORTAFOLIO</a></li>
-              <li><a href="#div-skills" class="menu-link"><i class="fas fa-brain"></i> HABILIDADES</a></li>
-              <li><a href="#div-contact" class="menu-link"><i class="fas fa-comments"></i> CONTACTAME</a></li>
+              <li><a href="#div-skills" class="menu-link"><i class="fas fa-pencil-ruler"></i> HABILIDADES</a></li>
+              <li><a href="#div-contact" class="menu-link"><i class="far fa-envelope"></i> CONTACTAME</a></li>
             </ul>
             <div class="social-network text-center">
               <a href="https://www.linkedin.com/in/virginia-mirella-contreras-villafuerte-1ab416167/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -46,11 +46,12 @@
               </p>
             </div>
           </div>
-          <div id="div-portfolio" class="div-portfolio full-height">
+          <div id="div-portfolio" class="div-portfolio">
             <h2 class="text-center big-title">PORTAFOLIO</h2>
             <div class="heading-border"></div>
+            <br><br>
             <div class="row">
-              <div class="col-md-4 div-proyect">
+              <div class="col-md-3 div-proyect">
                 <div class="proyect">
                   <img src="images/proyecto1.jpg" class="img-fluid" alt="Social network">
                   <div class="caption">
@@ -62,7 +63,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 div-proyect">
+              <div class="col-md-3 div-proyect">
                 <div class="proyect">
                   <img src="images/proyecto2.jpg" class="img-fluid" alt="Registro de visitantes">
                   <div class="caption">
@@ -72,12 +73,22 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 div-proyect">
+              <div class="col-md-3 div-proyect">
                 <div class="proyect">
                   <img src="images/proyecto3.jpg" class="img-fluid" alt="Dashboard de LMS Laboratoria">
                   <div class="caption">
                     <div class="proyect-link">
                       <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect3"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 div-proyect">
+                <div class="proyect">
+                  <img src="images/proyecto4.jpg" class="img-fluid" alt="Librería vmirella-mdlinks">
+                  <div class="caption">
+                    <div class="proyect-link">
+                      <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect4"><i class="fas fa-search-plus"></i></a>
                     </div>
                   </div>
                 </div>
@@ -233,63 +244,93 @@
 
     <!-- Modal -->
     <div class="modal fade" id="proyect2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenterTitle">Registro de visitantes</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-md-6">
-                    <img src="images/proyecto2.jpg" class="img-fluid" alt="Registro visitantes">
-                </div>
-                <div class="col-md-6">
-                  <p class="">En este proyecto la empresa de coworking Comunal donde opera Laboratoria desea reinventar su proceso de registro de visitantes. Lo común es que una persona esté en la recepción tomando nota, a veces con papel y lápiz, de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, ¿por qué seguimos registrando visitantes como si fuera 1985? ¿Qué tal si sustituimos a la persona en recepción por una tablet? ¿Qué tal si en lugar de pedir una identificación, tomamos una foto?</p>   
-                  <a href="https://vmirella.github.io/lim-2018-01-ProyectoFinalCore/src/view.html" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
-                  <a href="https://github.com/vmirella/lim-2018-01-ProyectoFinalCore" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
-                </div>
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Registro de visitantes</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="images/proyecto2.jpg" class="img-fluid" alt="Registro visitantes">
+              </div>
+              <div class="col-md-6">
+                <p class="">En este proyecto la empresa de coworking Comunal donde opera Laboratoria desea reinventar su proceso de registro de visitantes. Lo común es que una persona esté en la recepción tomando nota, a veces con papel y lápiz, de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, ¿por qué seguimos registrando visitantes como si fuera 1985? ¿Qué tal si sustituimos a la persona en recepción por una tablet? ¿Qué tal si en lugar de pedir una identificación, tomamos una foto?</p>   
+                <a href="https://vmirella.github.io/lim-2018-01-ProyectoFinalCore/src/view.html" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
+                <a href="https://github.com/vmirella/lim-2018-01-ProyectoFinalCore" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
               </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
-      <!-- End Modal -->
+    </div>
+    <!-- End Modal -->
 
-      <!-- Modal -->
+    <!-- Modal -->
     <div class="modal fade" id="proyect3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenterTitle">Dashboard LMS Laboratoria</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-md-6">
-                    <img src="images/proyecto3.jpg" class="img-fluid" alt="Dashboard LMS Laboratoria">
-                </div>
-                <div class="col-md-6">
-                  <p class="">En Laboratoria, las Training Managers hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. Así, el reto de este proyecto es crear una interfaz donde las Training Managers puedan ver y usar la data de progreso del LMS. Para ello, proponemos crear un data dashboard (tablero de visualización de datos).</p>   
-                  <a href="https://vmirella.github.io/lim-2018-05-bc-core-pm-datadashboard/src/login" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
-                  <a href="https://github.com/vmirella/lim-2018-05-bc-core-pm-datadashboard/" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
-                </div>
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Dashboard LMS Laboratoria</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="images/proyecto3.jpg" class="img-fluid" alt="Dashboard LMS Laboratoria">
+              </div>
+              <div class="col-md-6">
+                <p class="">En Laboratoria, las Training Managers hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. Así, el reto de este proyecto es crear una interfaz donde las Training Managers puedan ver y usar la data de progreso del LMS. Para ello, proponemos crear un data dashboard (tablero de visualización de datos).</p>   
+                <a href="https://vmirella.github.io/lim-2018-05-bc-core-pm-datadashboard/src/login" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
+                <a href="https://github.com/vmirella/lim-2018-05-bc-core-pm-datadashboard/" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
               </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
-      <!-- End Modal -->
+    </div>
+    <!-- End Modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="proyect4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Librería vmirella-mdlinks</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="images/proyecto4.jpg" class="img-fluid" alt="Librería vmirella-mdlinks">
+              </div>
+              <div class="col-md-6">
+                <p class="">Producto pensado para los desarrolladores. Es una librería creada en Node.js que lee y analiza archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.En npm podemos encontrar un manual de uso si deseas utilizarla.</p>   
+                <a href="https://www.npmjs.com/package/vmirella-mdlinks/v/2.0.1" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
+                <a href="https://github.com/vmirella/lim20181-Track-FE-markdown-list" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
