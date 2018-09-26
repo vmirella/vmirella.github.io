@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
 
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Roboto';
 }
 
 .vertical-align-content {
@@ -48,7 +48,7 @@ body {
   color: #fff;
   opacity: 0.5;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .sidebar-menu a:hover {
@@ -100,7 +100,7 @@ body {
 
 .div-about .about-content h1, .div-about .about-content h2 {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .div-about .about-content h1 {
@@ -111,15 +111,28 @@ body {
   font-size: 22px;
 }
 
-.div-about .about-content blockquote p {
+.div-about .about-content h3 {
+  font-family: 'Roboto';
+  font-weight: 400;
   font-size: 30px;
 }
 
+.div-about .about-content blockquote p {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+}
+
 .div-about .about-content p {
-  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 26px;
 }
 .div-about blockquote p {
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
   font-size: 40px;
 }
 
@@ -244,6 +257,10 @@ body {
   display: none;
 }
 
+.email-footer:hover {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
   .content {
     margin-left: 0; 
@@ -285,7 +302,7 @@ body {
   }
 
   .email-footer {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 
   .email-footer i{
