@@ -198,8 +198,16 @@ p {
   text-align: center;
 }
 
+.mobile-buttom-menu{
+  margin-left: 10px;
+}
+
 @media(max-width: 600px) {
   .contact {
-    font-size: 20px;
+    font-size: 14px;
+  }
+  .logo {
+    margin-left: 0;
+    margin-top: 5px;
   }
 }

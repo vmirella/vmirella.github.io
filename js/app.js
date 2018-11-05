@@ -80,6 +80,8 @@ $(document).ready(() => {
     fullWidth: true
   });
 
+  $('.sidenav').sidenav();
+
   $('.menu-link').click((e) => {
     e.preventDefault();
 
