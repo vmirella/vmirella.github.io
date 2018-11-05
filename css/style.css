@@ -180,6 +180,11 @@ p {
   color: #3E337F;
 }
 
+.div-info {
+  margin-bottom: 0;
+  padding-bottom: 45px;
+}
+
 .div-about, .div-skills, .div-portfolio, .div-contact {
   padding-top: 64px;
 }
