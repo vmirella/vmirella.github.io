@@ -7,274 +7,382 @@
     <meta property="og:title" content="Virginia Contreras - Portafolio" /> 
     <meta property="og:image" content="images/portafolio.png" /> 
     <meta property="og.description" content="Soy una persona que le gustan los retos. Autodidacta. Con ganas de seguir aprendiendo."> 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="shortcut icon" type="image/png" href="/images/icon.png"/>
 
     <title>Virginia Contreras - Portafolio</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row fixed-top container-responsive-menu">
-        <nav class="navbar navbar-md navbar-dark responsive-menu sidebar-menu">
-          <a class="navbar-brand" href="#"><img src="images/foto.jpg" alt="Virginia Contreras" class="rounded-circle ml-3" width="40" height="40"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link menu-link" href="#div-about"><i class="far fa-address-card"></i> SOBRE MI<span class="sr-only">(actual)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu-link" href="#div-portfolio"><i class="fas fa-briefcase"></i> PORTAFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu-link" href="#div-skills"><i class="fas fa-pencil-ruler"></i> HABILIDADES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu-link" href="#div-contact"><i class="far fa-envelope"></i> CONTACTAME</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      
+    <div class="container-fluid menu">      
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><img class="logo" src="/images/logo.png"/></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#about" class="menu-link">SOBRE MI</a></li>
+            <li><a href="#skills" class="menu-link">HABILIDADES</a></li>
+            <li><a href="#portfolio" class="menu-link">PORTAFOLIO</a></li>
+            <li><a href="#contact" class="menu-link">CONTACTAME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="presentation" class="container-fluid presentation full-height">
+      <div class="overlay"></div>
+      <canvas id="canvas"></canvas>
+      <div class="content-presentation">
+        <h1 class="font-weight-normal">Virginia Contreras</h1>
+        <h3 class="font-weight-normal">Front - End Developer</h3><br>
+        <h5>
+          "El código será el medio para alcanzar nuestros sueños".
+        </h5>
+        <a href="#about" class="btn-floating btn-large cyan pulse menu-link"><i class="material-icons">arrow_downward</i></a>
+      </div>            
+    </div>
+
+    <div id="about" class="container div-about">
       <div class="row">
-        <nav class="sidebar-menu main-menu aling-menu text-center">
-          <div class="vertical-align-content">
-            <img src="images/foto.jpg" alt="Virginia Contreras" class="rounded-circle">
-            <ul>
-              <li><a href="#div-about" class="active menu-link"><i class="far fa-address-card"></i> &nbsp;&nbsp;&nbsp;SOBRE MI&nbsp;&nbsp;</a></li>
-              <li><a href="#div-portfolio" class="menu-link"><i class="fas fa-briefcase"></i> PORTAFOLIO</a></li>
-              <li><a href="#div-skills" class="menu-link"><i class="fas fa-pencil-ruler"></i> HABILIDADES</a></li>
-              <li><a href="#div-contact" class="menu-link"><i class="far fa-envelope"></i> CONTACTAME</a></li>
-            </ul>
-            <div class="social-network text-center">
-              <a href="https://www.linkedin.com/in/virginia-mirella-contreras-villafuerte-1ab416167/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="https://github.com/vmirella" target="_blank"><i class="fab fa-github"></i></a>
+        <div class="col s12">
+          <h2>Sobre mí</h2>
+        </div>
+        <div class="col s12 m6 l4 offset-m3 offset-l4 content-line">
+          <span class="line"></span>
+          <i class="material-icons seccion-icons">person</i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="row">        
+        <div class="col s8">
+          <p>
+            Me gustan los retos, soy autodidacta, tengo muchas ganas de seguir aprendiendo.
+          </p>
+          <p>
+            En Laboratoria he adquirido conocimientos en metodologías ágiles las cuales me ayudan a planificar mejor mis proyectos.
+          </p>
+          <p>
+            Busco crear productos de valor, me gusta trabajar en equipo porque la diversidad de ideas genera gran impacto en el producto.
+            Me gustaría algún día involucrarme en el desarrollo de un videojuego.
+          </p>    
+        </div> 
+        <div class="col s4">
+          <img src="images/foto.jpg" alt="Virginia Contreras" class="photo">
+        </div>       
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h3>Reconocimientos</h3>
+        </div>
+        <div class="col s12 m6 l4 offset-m3 offset-l4 content-line">
+          <span class="line"></span>
+          <i class="material-icons seccion-icons">start</i>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 recognition">
+          <img class="recognition-image" src="../images/medalla.png" alt="medalla de reconocimiento"/>
+          <h5>Toma control del aprendizaje</h5>
+          <p>Este reconocimiento me fue otorgado por laboratoria.</p>
+        </div>
+        <div class="col s12 m6 recognition">
+          <img class="team-image" src="../images/tugui.jpg" alt="medalla de reconocimiento"/>
+          <h5>Reconocimiento a la presentación de proyecto que más impacto</h5>
+          <p>Este reconocimiento fue hecho por parte de los demás asistentes del evento al equipo del que forme parte con el proyecto TUGUI, proyecto que busca conectar al guía y a los turistas sin intermediarios, en el StartWeekend de turismo en Promperú.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid background-dark">
+      <div class="divider"></div>
+      <div id="skills" class="container div-skills">
+        <div class="row">
+          <div class="col s12">
+            <h3>Habilidades</h3>
+          </div>
+          <div class="col s12 m6 l4 offset-m3 offset-l4 content-line">
+            <span class="line"></span>
+            <i class="material-icons seccion-icons">equalizer</i>
+            <span class="line"></span>
+          </div>
+        </div>  
+  
+        <div class="row">        
+          <div class="col s3">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Autoaprendizaje</div>
+              <h4><i class="fas fa-book-reader"></i></h4>
             </div>
           </div>
-        </nav>
+          <div class="col s3">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Solidaridad</div>
+              <h4><i class="fas fa-people-carry"></i></h4>
+            </div>
+          </div>
+          <div class="col s3">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Comunicación asertiva</div>
+              <h4><i class="fas fa-volume-up"></i></h4>
+            </div>
+          </div>
+          <div class="col s3">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Organización</div>
+              <h4><i class="far fa-calendar-alt"></i></h4>
+            </div>
+          </div>        
+        </div>
+        <div class="row">
+  
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Web development languages</div>
+              <div class="chip">
+                <img src="images/html-logo.png" alt="html">
+                HTML5
+              </div>
+              <div class="chip">
+                <img src="images/javascript-logo.png" alt="Javacript">
+                Javacript
+              </div>
+              <div class="chip">
+                <img src="images/css-logo.png" alt="CSS3">
+                CSS3
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Javascript Libraries</div>
+              <div class="chip">
+                <img src="images/react-logo.png" alt="React">
+                React
+              </div>
+              <div class="chip">
+                <img src="images/node-logo.png" alt="Node">
+                Node
+              </div>
+              <div class="chip">
+                <img src="images/jquery-logo.png" alt="JQuery">
+                JQuery
+              </div>
+            </div>
+          </div>
+  
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Development plataform</div>
+              <div class="chip">
+                <img src="images/github-logo.png" alt="github">
+                GitHub
+              </div>
+              <div class="chip">
+                <img src="images/git-logo.png" alt="git">
+                Git
+              </div>
+            </div>
+          </div>
+          
+        </div> 
         
-        <div class="content">
-          <div id="div-about" class="div-about full-height">
-            <div class="about-content">
-              <h1 class="font-weight-normal">Virginia Mirella Contreras Villafuerte</h1>
-              <h3 class="font-weight-normal">Front - End Developer</h3><br>
-              <blockquote class="blockquote">
-                <p>"El código será el medio para alcanzar nuestros sueños".</p>
-              </blockquote>
-              <br>
-              <p>
-                Soy una persona que le gustan los retos. Autodidacta. Con ganas de seguir aprendiendo.<br>
-                Tengo conocimientos en metodologías ágiles las cuales me han ayudado a planificar mejor mis proyectos.<br>
-                Busco que haya armonía en mi equipo de trabajo y que se entreguen los trabajos a tiempo.<br>
-                Me gustaría algún día involucrarme en el desarrollo de un videojuego.
-              </p>
+        <div class="row">
+  
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Collaboration tools</div>
+              <div class="chip">
+                <img src="images/slack-logo.png" alt="slack">
+                Slack
+              </div>
+              <div class="chip">
+                <img src="images/trello-logo.png" alt="trello">
+                Trello
+              </div>
             </div>
           </div>
-          <div id="div-portfolio" class="div-portfolio">
-            <h2 class="text-center big-title">PORTAFOLIO</h2>
-            <div class="heading-border"></div>
-            <br><br>
-            <div class="row">
-              <div class="col-md-3 div-proyect">
-                <div class="proyect">
-                  <img src="images/proyecto1.jpg" class="img-fluid" alt="Social network">
-                  <div class="caption">
-                    <div class="proyect-link">
-                      <div class="proyect-link">
-                        <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect1"><i class="fas fa-search-plus"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Front - end frameworks</div>
+              <div class="chip">
+                <img src="images/materialize-logo.png" alt="materialize">
+                Materialize
               </div>
-              <div class="col-md-3 div-proyect">
-                <div class="proyect">
-                  <img src="images/proyecto2.jpg" class="img-fluid" alt="Registro de visitantes">
-                  <div class="caption">
-                    <div class="proyect-link">
-                      <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect2"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 div-proyect">
-                <div class="proyect">
-                  <img src="images/proyecto3.jpg" class="img-fluid" alt="Dashboard de LMS Laboratoria">
-                  <div class="caption">
-                    <div class="proyect-link">
-                      <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect3"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 div-proyect">
-                <div class="proyect">
-                  <img src="images/proyecto4.jpg" class="img-fluid" alt="Librería vmirella-mdlinks">
-                  <div class="caption">
-                    <div class="proyect-link">
-                      <a href="javascript:void(0)" data-toggle="modal" data-target="#proyect4"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
+              <div class="chip">
+                <img src="images/bootstrap-logo.png" alt="bootstrap">
+                Bootstrap
               </div>
             </div>
-          </div>  
-          <div id="div-skills" class="div-skills">
-            <div class="skills-cover">
-              <h2 class="text-center big-title">HABILIDADES BLANDAS</h2>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-3 text-center">
-                      <div class="skill-item">
-                          <i class="fas fa-book-reader"></i>
-                        <h4>Autoaprendizaje</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-3 text-center">
-                      <div class="skill-item">
-                          <i class="fas fa-people-carry"></i>
-                        <h4>Solidaridad</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-3 text-center">
-                      <div class="skill-item">
-                          <i class="fas fa-volume-up"></i>
-                        <h4>Comunicación asertiva</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-3 text-center">
-                      <div class="skill-item">
-                          <i class="far fa-calendar-alt"></i>
-                        <h4>Organización</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          </div>
+  
+          <div class="col s4">
+            <div class="card-panel section-skill">
+              <div class="section-skill-title">Package managers</div>
+              <div class="chip">
+                <img src="images/npm-logo.png" alt="npm">
+                npm
+              </div>
+            </div>
+          </div>
+          
+        </div>   
+  
+      </div>
+      <div class="divider"></div>
+    </div>
 
-                <div class="col-md-12">
-                  <h2 class="text-center big-title">HABILIDADES TÉCNICAS</h2>
-                  <div class="row justify-content-md-center">
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-js"></i>
-                        <h4>Javascript</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-html5"></i>
-                        <h4>HTML5</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-css3-alt"></i>
-                        <h4>CSS3</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-react"></i>
-                        <h4>React</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-node-js"></i>
-                        <h4>Node</h4>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="row justify-content-md-center">
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-git-square"></i>
-                        <h4>Git</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-github"></i>
-                        <h4>GitHub</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <img src="./images/bootstrap-logo.png" alt="Bootstrap">
-                        <h4>Bootstrap</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fas fa-database"></i>
-                        <h4>Firebase</h4>
-                      </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                      <div class="skill-item">
-                        <i class="fab fa-java"></i>
-                        <h4>Java</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
+    <div id="portfolio" class="container portfolio div-portfolio">
+
+      <div class="row">
+        <div class="col s12">
+          <h3>Portafolio</h3>
+        </div>
+        <div class="col s12 m6 l4 offset-m3 offset-l4 content-line">
+          <span class="line"></span>
+          <i class="material-icons seccion-icons">work</i>
+          <span class="line"></span>
+        </div>
+      </div>  
+
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <a class="carousel-item" href="#one!">
+              <img src="images/proyecto1_pc.jpg">
+            </a>
+            <a class="carousel-item" href="#two!">
+              <img src="images/proyecto1_tablet.jpg">
+            </a>
           </div>
-          <div id="div-contact" class="div-contact">
-            <h2 class="text-center big-title">CONTACTAME</h2>
-            <div class="heading-border"></div>
-            <div class="text-center">
-              <a href="https://www.linkedin.com/in/virginia-mirella-contreras-villafuerte-1ab416167/" class="contact-link" target="_blank" data-toggle="tooltip" data-placement="left" title="Mi linkedin"><i class="fab fa-linkedin"></i></a>
-              <a href="https://github.com/vmirella" class="contact-link" target="_blank" data-toggle="tooltip" data-placement="top" title="Mi portafolio"><i class="fab fa-github"></i></a>
-              <a href="https://drive.google.com/file/d/11RTb3jgdFhcVxZdm0uWjMZrNBbYeTMt9/view" class="contact-link" target="_blank" data-toggle="tooltip" data-placement="right" title="Mi CV"><i class="fas fa-download"></i></a>
-            </div>
-            <div class="text-center">
-              <a href="mailto:virginiacontrerasvillafuerte@gmail.com" class="email-footer"><i class="far fa-envelope"></i> virginiacontrerasvillafuerte@gmail.com</a>
-            </div>
+        </div>
+        <div class="col s12 m6 portfolio-details">
+          <h5>Proyecto: Burger Queen</h5>
+          <p>Proyecto para una cadena de restaurantes, es un sistema que permite tomar pedidos, como requerimiento de desarrollo se pidió que se visualize desde una tablet.</p>
+          <div>
+            <span class="chip">Responsive</span>
+            <span class="chip">Materialize</span>
+            <span class="chip">React</span>
           </div>
+          <div class="portfolio-buttons">
+            <a href="https://vmirella.github.io/lim-2018-01-burger-queen/" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="material-icons left">launch</i>Ver página web
+            </a>
+            <a href="https://github.com/vmirella/lim-2018-01-burger-queen.git" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="fab fa-github fa-2x white-text left" aria-hidden="true"></i>Ver código
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="row">
+        <div class="col s12 m6 portfolio-details">
+          <h5>Proyecto: Soy tu pata</h5>
+          <p>Soy tu pata es una red social creada con el fin de poder compartir información acerca del cuidado de nuestras mascotas. Enfocada en los amantes de mascotas entre 23 y 34 años.</p>
+          <div>
+            <span class="chip">Responsive</span>
+            <span class="chip">Bootstrap</span>
+            <span class="chip">Javascript vanilla</span>
+          </div>
+          <div class="portfolio-buttons">
+            <a href="https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="material-icons left">launch</i>Ver página web
+            </a>
+            <a href="https://github.com/vmirella/lim-2018-05-bc-core-pm-socialnetwork" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="fab fa-github fa-2x white-text left" aria-hidden="true"></i>Ver código
+            </a>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <a class="carousel-item" href="#one!">
+              <img src="images/proyecto2_pc.jpg">
+            </a>
+            <a class="carousel-item" href="#two!">
+              <img src="images/proyecto2_tablet.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <a class="carousel-item" href="#one!">
+              <img src="images/proyecto3_pc.jpg">
+            </a>
+            <a class="carousel-item" href="#two!">
+              <img src="images/proyecto3_tablet.jpg">
+            </a>
+          </div>
+        </div>
+        <div class="col s12 m6 portfolio-details">
+          <h5>Proyecto: Lab songs</h5>
+          <p>Programa un ranking de diez canciones de acuerdo al top diez de artistas del momento, esta información es consumida de la API last.fm.</p>
+          <div>
+            <span class="chip">Responsive</span>
+            <span class="chip">Materialize</span>
+            <span class="chip">React</span>
+            <span class="chip">last.fm</span>
+          </div>
+          <div class="portfolio-buttons">
+            <a href="https://vmirella.github.io/lim-2018-01-lab-songs-frameworks/" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="material-icons left">launch</i>Ver página web
+            </a>
+            <a href="https://github.com/vmirella/lim-2018-01-lab-songs-frameworks" target="_blank" class="btn pink accent-1 white-text waves-effect waves-light">
+              <i class="fab fa-github fa-2x white-text left" aria-hidden="true"></i>Ver código
+            </a>
+          </div>
+        </div>
+          
+      </div>
+  
+      <div class="divider"></div>
+    </div>
+
+    <div id="contact" class="container div-contact">
+      <div class="row">
+        <div class="col s12">
+          <h3>Contactame</h3>
+        </div>
+        <div class="col s12 m6 l4 offset-m3 offset-l4 content-line">
+          <span class="line"></span>
+          <i class="material-icons seccion-icons">email</i>
+          <span class="line"></span>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col s1 m2 l5 text-right contact">
+          <a href="https://drive.google.com/file/d/11RTb3jgdFhcVxZdm0uWjMZrNBbYeTMt9/view" target="_blank"><i class="fas fa-download"></i></a><br>
+          <a href="https://www.linkedin.com/in/virginia-mirella-contreras-villafuerte-1ab416167/" target="_blank"><i class="fab fa-linkedin"></i></a><br>
+          <a href="https://github.com/vmirella" target="_blank"><i class="fab fa-github"></i></a><br> 
+          <a href="mailto:virginiacontrerasvillafuerte@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+        <div class="col s11 m10 l7 contact">
+          <a href="https://drive.google.com/file/d/11RTb3jgdFhcVxZdm0uWjMZrNBbYeTMt9/view" target="_blank">Descargar mi CV</a><br>
+          <a href="https://www.linkedin.com/in/virginia-mirella-contreras-villafuerte-1ab416167/" target="_blank">Linkedin</a><br>
+          <a href="https://github.com/vmirella" target="_blank"> https://github.com/vmirella</a><br> 
+          <a href="mailto:virginiacontrerasvillafuerte@gmail.com"> virginiacontrerasvillafuerte@gmail.com</a>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="proyect1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">Red social "Soy tu pata"</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                  <img src="images/proyecto1.jpg" class="img-fluid" alt="Social network">
-              </div>
-              <div class="col-md-6">
-                <p class="">Soy tu pata es una red social creada con el fin de poder compartir información acerca del cuidado de nuestras mascotas. Enfocada en los amantes de mascotas entre 23 y 34 años.</p>   
-                <a href="https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
-                <a href="https://github.com/vmirella/lim-2018-05-bc-core-pm-socialnetwork" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-          </div>
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2018 Virginia Contreras Villafuerte
         </div>
       </div>
-    </div>
-    <!-- End Modal -->
+    </footer>
+
+    <!--************************************************************-->
 
     <!-- Modal -->
     <div class="modal fade" id="proyect2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -288,10 +396,10 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col s6">
                   <img src="images/proyecto2.jpg" class="img-fluid" alt="Registro visitantes">
               </div>
-              <div class="col-md-6">
+              <div class="col s6">
                 <p class="">En este proyecto la empresa de coworking Comunal donde opera Laboratoria desea reinventar su proceso de registro de visitantes. Lo común es que una persona esté en la recepción tomando nota, a veces con papel y lápiz, de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, ¿por qué seguimos registrando visitantes como si fuera 1985? ¿Qué tal si sustituimos a la persona en recepción por una tablet? ¿Qué tal si en lugar de pedir una identificación, tomamos una foto?</p>   
                 <a href="https://vmirella.github.io/lim-2018-01-ProyectoFinalCore/src/view.html" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
                 <a href="https://github.com/vmirella/lim-2018-01-ProyectoFinalCore" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
@@ -318,10 +426,10 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col s6">
                   <img src="images/proyecto3.jpg" class="img-fluid" alt="Dashboard LMS Laboratoria">
               </div>
-              <div class="col-md-6">
+              <div class="col s6">
                 <p class="">En Laboratoria, las Training Managers hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. Así, el reto de este proyecto es crear una interfaz donde las Training Managers puedan ver y usar la data de progreso del LMS. Para ello, proponemos crear un data dashboard (tablero de visualización de datos).</p>   
                 <a href="https://vmirella.github.io/lim-2018-05-bc-core-pm-datadashboard/src/login" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
                 <a href="https://github.com/vmirella/lim-2018-05-bc-core-pm-datadashboard/" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
@@ -348,10 +456,10 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col s6">
                   <img src="images/proyecto4.jpg" class="img-fluid" alt="Librería vmirella-mdlinks">
               </div>
-              <div class="col-md-6">
+              <div class="col s6">
                 <p class="">Producto pensado para los desarrolladores. Es una librería creada en Node.js que lee y analiza archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.En npm podemos encontrar un manual de uso si deseas utilizarla.</p>   
                 <a href="https://www.npmjs.com/package/vmirella-mdlinks/v/2.0.1" target="_blank" class="btn btn-outline-dark"><i class="fas fa-home"></i> Página web</a>   
                 <a href="https://github.com/vmirella/lim20181-Track-FE-markdown-list" target="_blank" class="btn btn-outline-dark"><i class="fab fa-github"></i> Ver código</a>     
@@ -366,11 +474,9 @@
     </div>
     <!-- End Modal -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
