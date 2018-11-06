@@ -214,4 +214,8 @@ p {
   h3 {
     font-size: 26px;
   }
+
+  .portfolio-buttons a {
+    margin-bottom: 10px;
+  }
 }
